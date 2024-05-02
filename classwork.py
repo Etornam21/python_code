@@ -92,7 +92,7 @@ class ReservationSystem:
         print(".......................")
         username = input("Enter username: ")
         password = input("Enter password: ")
-        return username == "admin" and password == "password"
+        return username == "oswald" and password == "pwd"
 
     def get_valid_input(self, prompt, validator):
         while True:
